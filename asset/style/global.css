@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@font-face{
+    font-family: font;
+    src: url('../font/Merriweather/Merriweather-BoldItalic.ttf');
+}
+p{
+    font-family: font;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:focus{
+    color: inherit;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
